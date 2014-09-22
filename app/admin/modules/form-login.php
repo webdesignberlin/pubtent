@@ -11,10 +11,10 @@
     <fieldset>
         <legend>Benutzeranmeldung</legend>
         <label for="username">Benutzername</label>
-        <input type="text" name="username" id="username">
+        <input type="text" name="username" id="username" required="required">
 
         <label for="password">Passwort</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" required="required">
 
         <label for="remember-login">
             <input type="checkbox" name="remember-login" id="remember-login">
