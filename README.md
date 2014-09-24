@@ -1,4 +1,4 @@
-publent
+pubtent
 =======
 
-publishing system
+publishing content system
