@@ -27,6 +27,5 @@
 
         <label for="login">Benutzerdaten absenden und einloggen</label>
         <input type="button" name="login" id="login" value="Anmelden">
-
     </fieldset>
 </form>
