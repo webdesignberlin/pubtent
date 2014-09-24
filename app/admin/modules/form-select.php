@@ -9,7 +9,6 @@
 
 <form>
     <fieldset>
-
         <legend>Filterung</legend>
         <label for="select-field">Auswahl treffen</label>
         <select name="select-field" id="select-field">
@@ -19,6 +18,5 @@
 
         <label for="select-field-submit">anwenden</label>
         <input type="submit" name="select-field-submit" id="select-field-submit" value="Filtern">
-
     </fieldset>
 </form>
