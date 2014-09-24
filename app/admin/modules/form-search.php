@@ -15,6 +15,5 @@
 
         <label for="site-search-submit">Suche starten</label>
         <input type="submit" name="site-search-submit" id="site-search-submit" value="Suchen">
-
     </fieldset>
 </form>
