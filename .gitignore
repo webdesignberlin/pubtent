@@ -54,6 +54,7 @@ node_modules/
 npm-debug.log
 bower_components/
 .sass-cache/
+grunt/
 
 # = IDEs / DevEnv
 
