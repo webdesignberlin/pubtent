@@ -1,0 +1,71 @@
+###
+# + Custom Task Definitions
+# https://github.com/firstandthird/load-grunt-config
+# ==================================================================
+#
+
+# clean dependencies
+'clean-deps':
+  - 'clean:deps'
+
+# clean temporary files/folders
+'clean-temp':
+  - 'clean:temp'
+
+# copy dependencies
+'copy-deps':
+  - 'clean-deps'
+  - 'copy:jquery'
+  - 'copy:bootstrap'
+
+# update bower.json from package.json
+'build-json':
+  - 'update_json:bower'
+
+# process stylesheets
+'build-css':
+  - 'sass:main'
+  - 'autoprefixer:main'
+  - 'css_mqpacker:main'
+  - 'csswring:main'
+
+# process javascripts
+'build-js':
+  - 'jshint:main'
+  - 'modernizr:main'
+  - 'uglify:main'
+
+# process javascripts without re-building modernizr
+'build-js-lazy':
+  - 'jshint:main'
+  - 'uglify:main'
+
+# process everything
+'build':
+  - 'build-json'
+  - 'copy-deps'
+  - 'build-css'
+  - 'build-js'
+  # - 'clean:temp'
+
+# process everything, except json updates, dependencies, modernizr
+'build-lazy':
+  - 'build-css'
+  - 'build-js-lazy'
+
+# start sync and watch
+'sync':
+  - 'browserSync'
+  - 'watch'
+'start-sync':
+  - 'sync'
+
+# start watch
+'start-watch':
+  - 'watch'
+
+# build job as default
+'default':
+  - 'build'
+
+# = Custom Task Definitions
