@@ -1,0 +1,43 @@
+{
+  "name": "pubtent",
+  "description": "publishing content system",
+  "version": "0.1.0",
+  "author": "Michael Gerstmann <reg@seiler-gerstmann.de>",
+  "contributors": [{
+    "name": "Michael Gerstmann",
+    "email": "reg@seiler-gerstmann.de"
+  },{
+    "name": "Michael Gerstmann",
+    "email": "reg@seiler-gerstmann.de"
+  }],
+  "license": "",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webdesignberlin/pubtent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webdesignberlin/pubtent/issues"
+  },
+  "private": true,
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^1.0.1",
+    "grunt-browser-sync": "^1.3.7",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-css-mqpacker": "^1.0.0",
+    "grunt-csswring": "^1.1.0",
+    "grunt-modernizr": "^0.5.2",
+    "grunt-update-json": "^0.1.3",
+    "jit-grunt": "^0.8.0",
+    "load-grunt-config": "^0.13.1",
+    "time-grunt": "^1.0.0"
+  }
+}
