@@ -1,0 +1,27 @@
+{
+	"name": "pubtent",
+	"description": "publishing content system",
+	"version": "0.1.0",
+	"homepage": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/webdesignberlin/pubtent.git"
+	},
+	"license": "",
+	"private": true,
+	"ignore": [
+		"node_modules",
+		"bower_components",
+		".DS_Store?",
+		"._*",
+		".Spotlight-V100",
+		".Trashes",
+		"ehthumbs.db",
+		"Thumbs.db"
+	],
+	"devDependencies": {
+		"jquery": "~2.1.1",
+		"bootstrap-sass-official": "~3.2.0",
+		"modernizr": "~2.8.3"
+	}
+}
